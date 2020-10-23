@@ -1,9 +1,9 @@
-#Bluetooth Beamer Fernsteuerung
+# Bluetooth Beamer Fernsteuerung
 Aug 24th, 2014
 
 Viele Beamer bieten die Möglichkeit der Steuerung via RS-232-Schnittstelle. Mithilfe eines Bluetooth-Seriell-Wandlers (HC-06) sowie eines Pegelwandlers wird im Folgenden eine Bluetooth-Schnittstelle zur Fernsteuerung per Android App entwickelt.
 
-###Hardware
+### Hardware
 ![Beamer mit RS-232 Schnittstelle](https://github.com/felixfreyer/Bluetooth-Beamer-Fernsteuerung/raw/main/rs232.png "Beamer mit RS-232 Schnittstelle")
 **Abbildung 1: Beamer mit RS-232 Schnittstelle
 **
@@ -23,7 +23,7 @@ Als Bluetooth-Seriell-Wandler wird das HC-06 Bluetooth Board verwendet. Dieses k
 Die serielle RS-232-Schnittstelle des Beamers muss anschließend noch an die Konfiguration des HC-06 angepasst werden: Default serail port setting : 9600, N, 8, 1 Pairing code : 1234 Nachdem die verwendete Hardware beschrieben wurde, folgt nun die entwickelte Android App.
 
 
-###Software
+### Software
 
 ![Android App](https://github.com/felixfreyer/Bluetooth-Beamer-Fernsteuerung/raw/main/screenshot.png "Android App")
 **Abbildung 4: Android App
